@@ -1,0 +1,154 @@
+@media (max-width:991px) {
+    body.poster {
+        margin-top: 60vh;
+    }
+}
+
+* {
+    max-width: 100%
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+    background: #efefef;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(248, 197, 56);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: rgb(211, 164, 33);
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background: rgb(164, 125, 17);
+}
+
+body.poster {
+    background-attachment: fixed;
+}
+
+.top-5 {
+    top: 5px;
+}
+
+.fondo-header {
+    background-color: #171717;
+}
+
+a:hover {
+    color: #ffc02c !important;
+    font-weight: bold;
+}
+
+.logo-llegahoy-blanco,
+.logo-llegahoy-violeta {
+    max-height: 150px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.logo-llegahoy-blanco:hover {
+    filter: invert(15%);
+}
+
+.logo-llegahoy-violeta:hover {
+    filter: hue-rotate(85deg) brightness(500%);
+}
+
+.header-image {
+    max-height: 500px;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .nav-item {
+        text-align: center;
+        flex: 1;  /* Opcional, si quieres que cada ítem ocupe el mismo espacio */
+    }
+}
+
+
+.display-3 {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #FFFF33, 0 0 20px #FFFF33, 0 0 30px #FFFF33, 0 0 40px #FFDD33, 0 0 50px #FFDD33, 0 0 60px #FFDD33, 0 0 65px #FFDD33, 0 0 66px #FFDD33;
+    animation: neon 0.9s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 5px #FFFF33, 0 0 10px #FFFF33, 0 0 15px #FFFF33, 0 0 20px #FFDD33, 0 0 35px #FFDD33, 0 0 40px #FFDD33, 0 0 50px #FFDD33, 0 0 55px #FFDD33;
+    }
+    to {
+        text-shadow: 0 0 10px #FFFF33, 0 0 20px #FFFF33, 0 0 30px #FFFF33, 0 0 40px #FFDD33, 0 0 50px #FFDD33, 0 0 60px #FFDD33, 0 0 65px #FFDD33, 0 0 66px #FFDD33;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-block .container, 
+    .hero-block .row, 
+    .hero-block .col-lg-6 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-block img.header-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+.fondo-web {
+    background-color: #fff;
+    -webkit-transition: .8s ease all;
+    transition: .8s ease all;
+}
+
+
+
+
+
+.whatsapp {
+    justify-content: center;
+    display: flex;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #262626;
+}
+
+.whatsapp-icono {
+    transition: all 1s ease-in-out;
+    padding-top: 50px;
+}
+
+.whatsapp-icono:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+
